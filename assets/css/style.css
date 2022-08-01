@@ -1,0 +1,378 @@
+/* @import css */
+@import url("../fonts/recoleta/stylesheet.css");
+@import url("../fonts/");
+/* @import css */
+
+/* unversal start */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* unversal end */
+/* root css */
+:root {
+	--bg-font-recoleta: "Recoleta";
+	--bg-font-sans: "Noto Sans", sans-serif;
+	--bg-header: #163a24;
+	--bg-one-green: #198c36;
+
+	--bg-white: #fbfaf7;
+}
+/* root css */
+body {
+	max-width: 1440px;
+	height: 7051px;
+	background: #ffffff;
+}
+
+.container {
+	max-width: 1180px;
+	margin-left: 130px;
+	margin-right: 130px;
+}
+
+.header {
+	height: 100vh;
+	background-color: var(--bg-header);
+}
+
+.navbar {
+	width: 100%;
+	height: 98px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.link {
+	width: 153px;
+	height: 58px;
+}
+
+.logo {
+	width: 153px;
+	height: 58px;
+}
+
+.navigation {
+	list-style-type: none;
+	width: 590px;
+	height: 27px;
+	display: flex;
+	justify-content: flex-end;
+	gap: 24px;
+	align-items: center;
+}
+
+.nav-list {
+}
+
+.nav-link {
+	font-family: var(--bg-font-sans);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 2.79px;
+	text-align: right;
+	text-decoration: none;
+	color: var(--bg-white);
+}
+
+.sign-btn {
+	width: 141px;
+	height: 52px;
+	border-radius: 160px;
+	border: none;
+	background-color: var(--bg-one-green);
+	font-family: var(--bg-font-sans);
+	font-weight: 400;
+	line-height: 21.79px;
+	font-size: 16px;
+	transition: background 0.6s ease-in;
+}
+
+.sign-btn:hover {
+	background: transparent;
+	border: 2px solid var(--bg-one-green);
+	color: var(--bg-white);
+	cursor: pointer;
+}
+
+.header-main {
+	display: flex;
+	justify-content: flex-start;
+}
+.header-main__text {
+	width: 491.66px;
+	height: 294px;
+	margin-top: 230px;
+}
+.header-heading {
+	font-family: var(--bg-font-recoleta);
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 65px;
+	color: var(--bg-white);
+}
+
+.header-paragriph {
+	font-family: var(--bg-font-sans);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	color: var(--bg-white);
+}
+.base-logo {
+	width: 638px;
+	height: 540px;
+	z-index: 3;
+}
+
+.main {
+	width: 100%;
+	height: auto;
+}
+
+.human-hr {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 98px;
+	margin-top: 120px;
+}
+.human-hr-main {
+	width: 393.33px;
+	height: 200px;
+}
+.human-hr__heading {
+	width: 325px;
+	height: 108px;
+	font-family: var(--bg-font-recoleta);
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 54px;
+	color: var(--bg-header);
+}
+.human-hr_paragriph {
+	height: 54px;
+	font-family: var(--bg-font-sans);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	color: var(--bg-header);
+}
+
+.clersky-about {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 100.86px;
+}
+.clersky-about__main {
+	width: 393.33px;
+	height: 200px;
+}
+
+.clersky-about__heading {
+	width: 376px;
+	height: 108px;
+	margin-bottom: 27px;
+	font-family: var(--bg-font-recoleta);
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 54px;
+	color: var(--bg-header);
+}
+
+.clersky-about__paragriph {
+	font-family: var(--bg-font-sans);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	color: var(--bg-header);
+}
+.twohr {
+	width: 487px;
+	height: 417.82px;
+}
+.partnears {
+	width: 100%;
+	height: 293.39px;
+	text-align: center;
+}
+.partnears__heading {
+	margin-top: 113.52px;
+	margin-bottom: 74px;
+	font-family: var(--bg-font-recoleta);
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 54px;
+	text-align: center;
+	color: var(--bg-header);
+}
+
+.partnears__link {
+	text-align: center;
+	text-decoration: none;
+}
+.hr-production {
+	width: 100%;
+	height: 568px;
+    background-color: var(--bg-header);
+    text-align: center;
+}
+.hr-production__heading {
+	width: 100%;
+	height: 54px;
+    padding-top: 86px;
+    padding-bottom: 73.88px;
+	font-family: var(--bg-font-recoleta);
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 54px;
+    text-align: center;
+	color: var(--bg-white);
+}
+.hr-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: ;
+}
+.hr-main__card{
+    width:295px;
+    height: 254px;
+    text-align: center;
+}
+.hr-main__card img{
+    margin-bottom: 28px;
+}
+.hr-main__text{
+    width: 100%;
+    height: 27px;
+    font-family: var(--bg-font-sans);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: var(--bg-white);
+}
+.all-shapes__heading {
+}
+
+.all-shapes__paragriph {
+}
+
+.togather__heading {
+}
+
+.togather__paragriph {
+}
+
+.togather-body {
+}
+
+.consaider {
+}
+
+.consaider-head__heading {
+}
+
+.consaider-head__paragriph {
+}
+
+.card-group {
+}
+
+.card {
+}
+
+.easy-main .easy-main__our {
+}
+
+.easy-header {
+}
+
+.easy-head__heading {
+}
+
+.easy-head__paragriph {
+}
+
+.our-body {
+}
+
+.our-text {
+}
+
+.our-btn {
+}
+
+.another {
+}
+
+.another-heading {
+}
+
+.another-pragriph {
+}
+
+.another-btn {
+}
+
+.get-started {
+}
+
+.get-heading__three {
+}
+
+.get-paragriph {
+}
+
+.get-btn {
+}
+
+.get-update {
+}
+
+.get-left {
+}
+
+.get-right__paragrih {
+}
+
+.form-privacy__link {
+}
+
+.nav-header {
+}
+
+.foot-link {
+}
+
+.foot-logo {
+}
+
+.foot-heading {
+}
+
+.socails {
+}
+
+.foot-footer__paragriph {
+}
+
+.foot-item {
+}
+
+.foot-list {
+}
